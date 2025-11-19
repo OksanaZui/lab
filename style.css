@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(201, 201, 231);
+    border: 4px solid white;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header, footer{
+    display: block;
+    background-color: rgb(92, 92, 243);
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+}
+
+nav{
+    float: left;
+    width: 25%;
+}
+
+nav h3, aside h3{
+    display: block;
+    color: rgb(92, 92, 243);
+    text-align: center;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover{
+    background-color: rgb(92, 92, 243);
+    color: aliceblue;
+}
+
+section{
+    display: block;
+    float: left;
+    text-align: justify;
+    width: 50%;
+}
+
+article h2{
+    text-align: center;
+    background-color: rgb(92, 92, 243);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+article p{
+    padding: 10px;
+}
+
+aside{
+    float: left;
+    width: 25%;
+}
+
+aside p{
+    margin: 15px;
+}
+
+footer{
+    clear: both;
+}
+
